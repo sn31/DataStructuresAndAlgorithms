@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Counter</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+  </head>
+    <body class="container">
+        <h1>Word Counter</h1><br>
+        <h4>Instructions</h4><hr>
+        <ol>
+            <li>Provide a key word that you would like to look for.</li>
+            <li>Provide any sentences or paragraph that you would like the program to look into.</li>
+            <li>Click submit</li>
+        </ol>
+
+        <h4>Program Inputs</h4><hr>
+         <form action="/wordcounter/result" method="post">
+            <label for="new-word">Key Word
+                <input id="new-word" name="new-word" class="form-control" type="text" required><br>
+            </label><br>
+            <label for="new-string">Target 
+                <input id="new-string" name="new-string" class="form-control" type="text" required><br>
+            </label><br>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </body>
+</html>

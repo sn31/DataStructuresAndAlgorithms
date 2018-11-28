@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+    <body class="container">
+        <h1>Current Game</h1><br>
+        <img src='~/img/Noose.png'/><hr>
+        <form action="/game" method="post">
+          <label for="new-guess">Guess
+          <input id="new-guess" name="new-guess" class="form-control" type="text" required><br>
+          </label><br>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        
+    </body>
+</html>
